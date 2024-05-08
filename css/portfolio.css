@@ -1,0 +1,91 @@
+#portfolio {
+padding-bottom: 100px;
+}
+#portfolio .portfolio-title{
+  display: flex;
+  align-items: center;
+  width: 1200px;
+  margin: 0 auto;
+}
+#portfolio .portfolio-title h2{
+  font-size: 68px;
+  font-weight: 800;
+  font-family: 'Titillium Web', sans-serif;
+  text-shadow: 1px 1px 2px #525252;
+  padding-right: 55px;
+}
+#portfolio .portfolio-title p{
+  line-height: 1.5;
+  padding-top: 10px;
+  color: #5F5F5F;
+  letter-spacing: -0.6px;
+  font-size: 15px;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+#portfolio .wrap {
+  width: 1150px;
+  font-family: 'Noto Sans KR', sans-serif;
+  margin-bottom: 100px;
+  position: relative;
+}
+#portfolio .wrap .textbox{
+  font-family: 'Noto Sans KR', sans-serif;
+  width: 48%;
+}
+#portfolio .wrap .textbox h3{
+  font-size: 35px;
+  line-height: 2;
+  font-weight: 800;
+  position: relative;
+}
+#portfolio .wrap .textbox h3::before{
+  content: "";
+  position: absolute;
+  width: 330px;
+  height: 40px;
+  background-color: #E5A732;
+  top: 17px;
+  left: -7px;
+  transform: skewX(-10deg);
+  z-index: -1;
+}
+#portfolio .wrap .textbox h4{
+  font-size: 18px;
+  line-height: 1.5;
+  padding-bottom: 25px;
+}
+#portfolio .wrap .textbox h5{
+  font-size: 20px;
+  font-weight: 600;
+  padding-bottom: 7px;
+  padding-top: 7px;
+}
+#portfolio .wrap .textbox span{
+  font-size: 19px;
+  color: #E4A531;
+  font-weight: 600;
+}
+#portfolio .wrap .textbox p{ 
+  line-height: 1.5;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  color: #5E5E5E;
+}
+
+#portfolio .wrap .container{
+  justify-content: space-between;
+  padding-top: 120px;
+}
+#portfolio .wrap .container .imgbox{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+  width: 600px;
+  height: 500px;
+  width: 48%;
+}
+#portfolio .wrap .container .imgbox img{
+  width: 49%;
+  height: 49%;
+} 
